@@ -1,0 +1,12 @@
+
+
+version: 2
+
+sources:
+  - name: tpch
+    database: STEVE_D_RAW_DATA
+    schema: TPCH_DATA
+    tables:
+      - name: orders
+      - name: part
+      - name: lineitem
